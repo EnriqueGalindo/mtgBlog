@@ -5,6 +5,7 @@ import Home from './components/Project/Home';
 import ArticleDetails from './components/Project/ArticleDetails'
 import SignIn from './components/auth/SignIn'
 import Register from './components/auth/Register'
+import CreateArticle from './components/Project/CreateArticle'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/article/:id' component={ArticleDetails} />
       <Route path='/signin' component={SignIn} />
       <Route path='/register' component={Register} />
+      <Route path='/create' component={CreateArticle} />
     </Switch>
     </div>
     </BrowserRouter>
